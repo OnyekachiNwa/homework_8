@@ -1,0 +1,12 @@
+#columndivs {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+#odiv {
+  background-color: #8C7562;
+}
+
+#ndiv {
+  background-color: linear-gradient(to bottom, linear-gradient(180deg, #99816D 100%, #8C7562 30%);
+}
