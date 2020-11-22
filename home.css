@@ -1,12 +1,31 @@
-#columndivs {
-  display: grid;
-  grid-template-columns: auto;
+.uk-width-1-4 {
+  height: 100vh;
 }
 
-#odiv {
+#oblock {
   background-color: #8C7562;
 }
 
-#ndiv {
-  background-color: linear-gradient(to bottom, linear-gradient(180deg, #99816D 100%, #8C7562 30%);
+#nblock {
+  background-image: linear-gradient(#99816D , #8C7562 95%);
+}
+
+#yblock {
+  background-image: linear-gradient(#B39B86 , #8C7562 95%);
+}
+
+#eblock{
+  background-image: linear-gradient(#CCB59F , #8C7562 95%);
+}
+
+#aboutme {
+  background-image: linear-gradient(#8C7562, #99816D);
+}
+
+#aboutmediv {
+  border-style: dotted;
+}
+
+#portfoliopage {
+  background-image: linear-gradient(#99816D, #8C7562);
 }

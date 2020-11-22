@@ -3,14 +3,43 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="home.css">
+    <!--fullpagecss-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
     <title></title>
   </head>
+
   <body>
-    <div id="columndivs">
-      <div id="odiv">x</div>
-      <div id="ndiv">x</div>
-      <div id="ydiv">x</div>
-      <div id="ediv">x</div>
+    <!--full grid container-->
+    <div class="uk-container uk-width-auto">
+      <!--landingpage-->
+      <div class="uk-grid" id="landingpage">
+        <!--with 4 columns-->
+        <div class="uk-width-1-4" id="oblock">o</div>
+        <div class="uk-width-1-4" id="nblock">n</div>
+        <div class="uk-width-1-4" id="yblock">y</div>
+        <div class="uk-width-1-4" id="eblock">e</div>
+      </div>
+      <!--AboutMe anchor/row-->
+      <div class="uk-grid" id="aboutme">
+        <!--with 2 columns-->
+        <div class="uk-width-1-4" id="aboutmediv">aboutme</div>
+        <div class="uk-width-3-4" id="writingdiv">writing</div>
+      </div>
+      <!--portfolio anchor/row-->
+      <div class="uk-grid" id="portfoliopage">
+        <!--portfolio works container with 3 columns, 2 rows-->
+        <div class="uk-container-center">
+          <!--HERE >> create 2 rows, 3 columns-->
+        </div>
+      </div>
+
+
     </div>
   </body>
 </html>
