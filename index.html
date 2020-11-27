@@ -3,11 +3,16 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="home.css">
+    <!--PlayfairDisplay font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Roboto font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,900;1,300;1,400;1,900&display=swap" rel="stylesheet">
     <!--fullpagecss-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css" integrity="sha512-8M8By+q+SldLyFJbybaHoAPD6g07xyOcscIOQEypDzBS+sTde5d6mlK2ANIZPnSyxZUqJfCNuaIvjBUi8/RS0w==" crossorigin="anonymous" />
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/css/uikit.min.css" />
-
     <!-- UIkit JS -->
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.9/dist/js/uikit-icons.min.js"></script>
@@ -17,13 +22,24 @@
   <body>
     <!--full grid container-->
     <div class="uk-container uk-width-auto">
+      <!--overlay scroll bar-->
+      <div class="uk-position-left uk-dark">
+      <!--scroll bar-->
+        <ul class="uk-dotnav uk-dotnav-vertical" id="scrollbar">
+          <li>home</li>
+          <li>about me</li>
+          <li>works</li>
+          <li>resume</li>
+          <li>contact me</li>
+        </ul>
+      </div>
       <!--landingpage-->
       <div class="uk-grid" id="landingpage">
         <!--with 4 columns-->
-        <div class="uk-width-1-4" id="oblock">o</div>
-        <div class="uk-width-1-4" id="nblock">n</div>
-        <div class="uk-width-1-4" id="yblock">y</div>
-        <div class="uk-width-1-4" id="eblock">e</div>
+        <div class="uk-width-1-4" id="oblock">O</div>
+        <div class="uk-width-1-4" id="nblock">N</div>
+        <div class="uk-width-1-4" id="yblock">Y</div>
+        <div class="uk-width-1-4" id="eblock">E</div>
       </div>
       <!--AboutMe anchor/row-->
       <div class="uk-grid" id="aboutme">
