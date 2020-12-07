@@ -12,6 +12,12 @@
   font-size: 14px;
 }
 
+.thirtytext {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+
 #oblock {
   background-color: #8C7562;
   color: black;
@@ -54,8 +60,29 @@
   background-image: linear-gradient(#8C7562, #99816D);
 }
 
+#aboutmediv {
+  font-family: 'PlayfairDisplay';
+  font-size: 24px;
+  font-weight: 100;
+  color: black;
+}
+
 #portfoliopage {
   background-image: linear-gradient(#99816D, #B39B86);
+}
+
+#boxofprojects {
+  align-self: center;
+  border-style: dotted;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(2,300px);
+  grid-gap: 1em;
+}
+
+.work:hover {
+  transition-delay: 0.25;
+  filter:blur(5px)
 }
 
 #resumepage {
