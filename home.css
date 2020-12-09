@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+body {
+    cursor: crosshair;
+}
+
 .uk-grid {
   height: 100vh;
   width: 100vw;
@@ -22,6 +26,14 @@
   font-family: 'PlayfairDisplay';
   font-weight: 900;
   font-size: 400px;
+}
+
+.typewriter {
+  font-family: 'PlayfairDisplay';
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+  margin: 0.5em 0;
 }
 
 #nblock {
@@ -147,36 +159,6 @@
   background-image: linear-gradient(#B39B86, #CCB59F);
 }
 
-#contactmepage {
-  background-image: linear-gradient(#CCB59F, #E6DACF);
-  display: flex;
-  flex-direction: column;
-}
-
-#finalname {
-  font-family: 'PlayfairDisplay';
-  color: black;
-  font-weight: 900;
-  font-size: 48px;
-}
-
-#contactmebox {
-  display: grid;
-  grid-template-columns: 300px 500px;
-  justify-content: center;
-  height: 70%;
-  width: 70%;
-  background: white;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-}
-
-#contactform {
-  background: #99816D;
-  border-radius: 10px;
-  width: 100%;
-}
-
 #aboutmediv {
   font-family: 'PlayfairDisplay';
   font-weight: lighter;
@@ -206,10 +188,40 @@
   border-style: dotted;
 }
 
-.typewriter {
+#contactmepage {
+  background-image: linear-gradient(#CCB59F, #E6DACF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#finalname {
   font-family: 'PlayfairDisplay';
-  font-weight: 400;
-  font-size: 30px;
   color: black;
-  margin: 0.5em 0;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+#contactmebox {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  justify-content: center;
+  height: 70%;
+  width: 70%;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+#contactform {
+  background: #99816D;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.uk-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
 }
