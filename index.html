@@ -47,13 +47,13 @@
           <!--AboutMe anchor/row-->
           <div class="uk-grid" id="aboutme">
             <!--with 2 columns-->
-            <div class="uk-width-2-5" id="aboutmediv">
+            <div class="uk-width-1-4" id="aboutmediv">
               <span id="ofont">O</span>nyekachi Nwabueze<br>
               <span id="pronounce">[Own-yeh-ka-chee Wa-bweh-zeh]</span><br>
               [portrait here]
             </div>
             <!--right side writing div-->
-            <div class="uk-width-3-5" id="writingdiv">
+            <div class="uk-width-3-4" id="writingdiv">
               <div id="aboutmebox">
               First and foremost, I am an educator...<br>
               a mentor...<br>
@@ -147,21 +147,35 @@
 
               <div id="contactmebox">
                 <!--contact info-->
-                <div id="contactinfo">Phone Number<br>Email<br>LinkedIn</div>
+                <div id="contactinfo">
+                  <b>Phone Number</b>
+                  <br>
+                  (415) 489-0270
+                  <br>
+                  <b>Email</b>
+                  <br>
+                  onwabuez@andrew.cmu.edu
+                  <br>
+                  <b>LinkedIn</b>
+                  <br>
+                  <a href="https://www.linkedin.com/in/onyenwabueze/">onyenwabueze</a>
+                </div>
                 <!--contact form-->
                 <div id="contactform">
 
                   <form class="uk-form-stacked">
+                    <!--Name-->
                     <div class="uk-margin">
-                      <label class="uk-form-label">Name</label>
-                      <input class="uk-input uk-form-width-large" type="text" placeholder="Name">
+                      <input class="input" id="nameinput" type="text" placeholder="Name">
                     </div>
+                    <!--Email-->
                     <div class="uk-margin">
-                      <label class="uk-form-label">Email</label>
-                      <input class="uk-input uk-form-width-large" type="text" placeholder="Email">
+                      <input class="input" id="emailinput" type="text" placeholder="email@domain.com">
                     </div>
-                    <label class="uk-form-label">Message</label>
-                    <textarea class="uk-textarea" placeholder="Message"></textarea>
+                    <!--Message-->
+                    <input class="input" id="messageinput" type="text" placeholder="Message">
+                    <!--submit/send button-->
+                    <div id="sendmessage">Send Message</div>
                   </form>
                 </div>
               </div>
