@@ -155,10 +155,6 @@ body {
   background-size: cover;
 }
 
-#resumepage {
-  background-image: linear-gradient(#B39B86, #CCB59F);
-}
-
 #aboutmediv {
   font-family: 'PlayfairDisplay';
   font-weight: lighter;
@@ -186,6 +182,34 @@ body {
 
 .uk-width-1-3 {
   border-style: dotted;
+}
+
+#resumepage {
+  background-image: linear-gradient(#B39B86, #CCB59F);
+}
+
+#resumepreview {
+  font-family: 'Roboto' sans-serif;
+  color: black;
+  line-height: 1.25em;
+  margin-top: 2.5em;
+}
+
+.resheaders{
+  color: white;
+}
+
+.educ {
+  font-weight: 400;
+}
+
+.resdetail{
+  font-weight: 100;
+}
+
+#resume {
+  display: flex;
+  flex-direction: column;
 }
 
 #contactmepage {
