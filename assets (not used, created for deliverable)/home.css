@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.uk-grid {
+  height: 100vh;
+  width: 100vw;
+}
+
+#himynameis{
+  position: fixed;
+  top: 5%;
+  left: 2%;
+  font-family: 'PlayfairDisplay';
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+}
+
+#oblock {
+  background-color: #8C7562;
+  color: black;
+  font-family: 'PlayfairDisplay';
+  font-weight: 900;
+  font-size: 400px;
+}
+
+.typewriter {
+  font-family: 'PlayfairDisplay';
+  font-weight: 400;
+  font-size: 30px;
+  color: black;
+  margin: 0.5em 0;
+}
+
+#nblock {
+  background-image: linear-gradient(#99816D , #8C7562 95%);
+  color: black;
+  font-family: 'PlayfairDisplay';
+  font-weight: 900;
+  font-size: 400px;
+}
+
+#yblock {
+  background-image: linear-gradient(#B39B86 , #8C7562 95%);
+  color: black;
+  font-family: 'PlayfairDisplay';
+  font-weight: 900;
+  font-size: 400px;
+}
+
+#eblock{
+  background-image: linear-gradient(#CCB59F , #8C7562 95%);
+  color: black;
+  font-family: 'PlayfairDisplay';
+  font-weight: 900;
+  font-size: 400px;
+}
+
+#aboutme {
+  background-image: linear-gradient(#8C7562, #99816D);
+}
+
+#aboutmediv {
+  font-family: 'PlayfairDisplay';
+  font-size: 28px;
+  color: black;
+}
+
+#ofont {
+  font-size: 100px;
+  font-weight: 600;
+}
+
+#portfoliopage {
+  background-image: linear-gradient(#99816D, #B39B86);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#boxofprojects {
+  align-self: center;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-template-rows: repeat(2,300px);
+  grid-gap: 1em;
+}
+
+.work {
+  border-radius: 10px;
+  height:300px;
+  width:300px;
+}
+
+.overlaysquare {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  color: white;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.overlaysquare-blur{
+  backdrop-filter: blur(5px);
+}
+
+.overlaysquare:hover {
+  opacity: 1;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#ixd {
+  background-image: url("/Users/onyekachi/Desktop/PUI/HW8/images/ixd.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#kst {
+  background-image: url("/Users/onyekachi/Desktop/PUI/HW8/images/ucre.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#frustrationgame {
+  background-image: url("/Users/onyekachi/Desktop/PUI/HW8/images/pdgame.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#ixdrwd {
+  background-image: url("/Users/onyekachi/Desktop/PUI/HW8/images/ixdrwd.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#gauxcasestudy {
+  background-image: url("/Users/onyekachi/Desktop/PUI/HW8/images/uxcasestudy.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#portrait {
+  width: 400px;
+  height: 500px;
+  background-image: url("/Users/onyekachi/Desktop/PUI/HW8/images/portrait.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 13%;
+}
+
+#writingdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+#aboutmebox {
+  background-color: #CCB59F;
+  height: 75vh;
+  width: 700px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 100;
+}
+
+.uk-width-1-3 {
+  border-style: dotted;
+}
+
+#resumepage {
+  background-image: linear-gradient(#B39B86, #CCB59F);
+}
+
+#resumepreview {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  line-height: 1.25em;
+  margin-top: 2.5em;
+}
+
+.resheaders{
+  color: white;
+}
+
+.educ {
+  font-weight: 400;
+}
+
+.resdetail{
+  font-weight: 100;
+}
+
+#resume {
+  display: flex;
+  flex-direction: column;
+}
+
+#contactmepage {
+  background-image: linear-gradient(#CCB59F, #E6DACF);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#finalname {
+  font-family: 'PlayfairDisplay';
+  color: black;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+#contactmebox {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  justify-content: center;
+  height: 70%;
+  width: 70%;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+#contactinfo {
+  margin-top: 2em;
+  line-height: 2em;
+}
+
+#contactform {
+  background: #99816D;
+  border-radius: 10px;
+  width: auto;
+  padding: 2em;
+}
+
+.input {
+  background: transparent;
+  outline: none;
+  border-bottom: 0.5px solid #ffffff;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 5px 16px;
+  caret-color: white;
+}
+
+::placeholder {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  opacity: 50%;
+}
+
+#nameinput {
+  width: 25%;
+}
+
+#emailinput {
+  width: 25%;
+}
+
+#messageinput {
+  width: 75%;
+}
+
+#sendmessage {
+  color: white;
+  background: transparent;
+  outline: none;
+  border-bottom: 0.5px solid #ffffff;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 125px;
+  margin-top: 40%;
+}
+
+#sendmessage:hover {
+  color: black;
+  border-bottom: 0.5px solid black;
+}
+
+/*tablet or medium screen*/
+@media screen and (max-width: 1024px) {
+  .typewriter {
+    visibility: hidden;
+  }
+  #oblock, #nblock, #yblock, #eblock {
+    font-size: 200px;
+    padding-top: 1em;
+  }
+
+}
+
+/*phone screen*/
+@media screen and (max-width: 768px) {
+  #oblock, #nblock, #yblock, #eblock {
+    font-size: 100px;
+    padding-top: 1em;
+  }
+  #aboutmediv {
+    width: 25%;
+    height: 25%;
+  }
+  #writingdiv {
+    width: auto;
+    height: auto;
+    margin-right: 1em;
+  }
+  #aboutmebox {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+  }
+  #boxofprojects {
+    grid-template-areas:
+      'ixd'
+      'kst'
+      'frustrationgame'
+      'ixdrwd'
+      'gauxcasestudy';
+  }
+  .uk-card {
+    width: 75%;
+    height: 200px;
+  }
+}
